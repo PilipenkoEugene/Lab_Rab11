@@ -11,7 +11,7 @@ namespace Lab11
     {
         static void Main(string[] args)
         {
-            StreamReader fIn = new StreamReader("data_example_small.csv");
+            StreamReader fIn = new StreamReader("lr11_23.csv");
 #if !DEBUG
             TextWriter saveOut = Console.Out;
             var newOut = new StreamWriter(@"lr11Output.txt");
